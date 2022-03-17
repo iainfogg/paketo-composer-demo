@@ -1,0 +1,12 @@
+{
+    "require": {
+        "doctrine/annotations": "^1.13"
+    },
+    "autoload" :
+    {
+        "psr-4" :
+        {
+            "Application\\" : "src"
+        }
+    }
+}
