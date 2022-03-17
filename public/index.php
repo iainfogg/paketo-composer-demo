@@ -12,6 +12,14 @@ if (class_exists('Application\\NonVendorClass')) {
 
 echo '<br>';
 
+if (class_exists('ClassMap')) {
+    echo "ClassMap exists";
+} else {
+    echo "Can't find ClassMap";
+}
+
+echo '<br>';
+
 if (class_exists('Doctrine\Common\Annotations\\Annotation')) {
     echo "Annotation exists";
 } else {
