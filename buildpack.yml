@@ -1,0 +1,7 @@
+php:
+  version: 7.4.*
+  webserver: php-server
+  webdirectory: public
+composer:
+  version: 2.*
+  install_options: ['--no-scripts']
